@@ -1,0 +1,5 @@
+# Welcome
+
+## Installing
+
+	npm install
