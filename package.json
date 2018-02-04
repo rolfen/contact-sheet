@@ -5,17 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-js" : "`npm bin`/rollup -c"
+    "build-js" : "`npm bin`/rollup -c",
+    "watch-js" : "`npm bin`/rollup -c --watch"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "buble": "^0.18.0",
-    "inferno": "^3.10.1",
+    "inferno": "^3.10.1", /* remove? */
     "rollup": "^0.55.2",
     "rollup-plugin-buble": "^0.18.0",
-    "rollup-plugin-commonjs": "^8.3.0",
-    "rollup-plugin-node-resolve": "^3.0.2"
+    "rollup-plugin-commonjs": "^8.3.0", /* remove? */
+    "rollup-plugin-node-resolve": "^3.0.2" /* remove? */
   },
   "dependencies": {
     "rollup-plugin-uglify": "^3.0.0",

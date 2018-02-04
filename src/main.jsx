@@ -1,8 +1,8 @@
-import Inferno from 'inferno';
+import {Hello} from './Hello.jsx';
 
 const message = "Hello world";
 
 Inferno.render(
-  <MyComponent message={ message } />,
+  <Hello message={ message } />,
   document.getElementById("app")
 )
