@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run build-js", 
     "build-js": "`npm bin`/rollup -c",
     "watch-js": "`npm bin`/rollup -c --watch"
   },
