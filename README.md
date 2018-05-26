@@ -11,3 +11,8 @@
 or 
 
 	npm run watch-js
+
+## Why?
+
+* React compatible
+* Lightweight, fast
