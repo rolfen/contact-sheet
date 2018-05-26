@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run build-js", 
+    "build": "npm run build-js",
     "build-js": "`npm bin`/rollup -c",
     "watch-js": "`npm bin`/rollup -c --watch"
   },
@@ -14,10 +14,10 @@
   "devDependencies": {
     "buble": "^0.18.0",
     "inferno": "^3.10.1",
-    "rollup": "^0.55.2",
+    "rollup": "^0.55.5",
     "rollup-plugin-buble": "^0.18.0",
-    "rollup-plugin-commonjs": "^8.3.0",
-    "rollup-plugin-node-resolve": "^3.0.2"
+    "rollup-plugin-commonjs": "^8.4.1",
+    "rollup-plugin-node-resolve": "^3.3.0"
   },
   "devDependenciesComments": [
     "May be removed:",
