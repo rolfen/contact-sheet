@@ -12,19 +12,19 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "buble": "^0.18.0",
-    "inferno": "^3.10.1",
-    "rollup": "^0.55.5",
-    "rollup-plugin-buble": "^0.18.0",
-    "rollup-plugin-commonjs": "^8.4.1",
-    "rollup-plugin-node-resolve": "^3.3.0"
+    "buble": "*",
+    "inferno": "*",
+    "rollup": "*",
+    "rollup-plugin-buble": "*",
+    "rollup-plugin-commonjs": "*",
+    "rollup-plugin-node-resolve": "*"
   },
   "devDependenciesComments": [
     "May be removed:",
     "inferno, rollup-plugin-commnjs, rollup-plugin-node-resolve"
   ],
   "dependencies": {
-    "rollup-plugin-uglify": "^3.0.0",
-    "uglify": "^0.1.5"
+    "rollup-plugin-uglify": "*",
+    "uglify": "*"
   }
 }
